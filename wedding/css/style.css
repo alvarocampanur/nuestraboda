@@ -39,6 +39,9 @@
 /*IMPORT GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,700|Dancing+Script:500,600&display=swap');
+@import url('https://use.typekit.net/noq4uqq.css');
+<link rel="stylesheet" href="https://use.typekit.net/noq4uqq.css">
+<link rel="stylesheet" href="https://use.typekit.net/fov7qkh.css">
 html{
     scroll-behavior: smooth;
 }
@@ -50,11 +53,30 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'YoureInvitedHeavy';
+    src: url('../fonts/YoureInvitedHeavy.woff') format('woff'),
+         url('../fonts/YoureInvitedHeavy.woff') format('woff'),;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'archivo-semi-expanded', sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: "archivo-expanded", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 /*************************************/
 /***********custom classes ***********/
 /*************************************/
 
-.white-and-black{font-size: 12px;font-family: 'Montserrat', sans-serif;padding: 10px 25px;border:1px solid #ffffff;color: #FFFFFF;font-weight: 600;background-color: transparent; -webkit-transition:.8s ease;-o-transition:.8s ease;transition:.8s ease;}
+.white-and-black{font-size: 12px;font-family: 'archivo-expanded', sans-serif;padding: 10px 25px;border:1px solid #ffffff;color: #FFFFFF;font-weight: 600;background-color: transparent; -webkit-transition:.8s ease;-o-transition:.8s ease;transition:.8s ease;}
 .white-and-black:hover{color: #ffffff;background-color: #b6a85a;;border:1px solid transparent;}
 
 .slider-overlay{
@@ -68,11 +90,11 @@ body {
 
 .text-des{
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
 }
 .sub-heading{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #b6a85a;
@@ -81,7 +103,7 @@ body {
 }
 .large-heading{
     /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
     font-weight: 500;
     font-size: 56px;
     color:  #2f2f2f;
@@ -132,7 +154,7 @@ body {
     font-size: 13px;
     padding: 10px 30px 10px 30px;
     transition: .8s ease;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
@@ -505,9 +527,9 @@ header a.logo img {
     color: #ffffff;
     font-weight: 600;
     text-align: center;
-    padding: 0.4rem 1.5rem;
+    padding: 0.4rem 0.8rem;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
 
 }
 
@@ -597,7 +619,7 @@ header a.logo img {
     opacity: 0.3;
     width: 100%;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
 }
 
 
@@ -621,6 +643,7 @@ header a.logo img {
 
 .side-menu .side-nav .navbar-nav li a{
     font-size: 20px;
+	font-family: 'archivo-expanded'; 
 }
 
 .side-footer {
@@ -986,7 +1009,7 @@ header a.logo img {
     background-repeat: no-repeat;
 }
 .about-sec .about-info .sub-heading{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #b6a85a;
@@ -997,11 +1020,11 @@ header a.logo img {
     margin-bottom: 30px;
 }
 .about-sec .about-heading .heading-subtitle{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-size: 14px;
 }
 .about-sec .about-heading .heading-title{
-    font-family:'Dancing Script', cursive;
+    font-family:'YoureInvitedHeavy';
     font-size: 32px;
 }
 .about-sec .about-image-holder{
@@ -1034,11 +1057,11 @@ header a.logo img {
     padding: 15px;
 }
 .about-sec .about-img-des .small-text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-size: 15px;
 }
 .about-sec .about-img-des .quote{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
     font-size: 24px;
     transition: .8s ease;
 }
@@ -1071,7 +1094,7 @@ header a.logo img {
 .count-sec .num{
     color: #FFFFFF;
     font-size: 70px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 600;
     -webkit-transition: .8s ease;
     -o-transition: .8s ease;
@@ -1080,13 +1103,13 @@ header a.logo img {
 .count-sec .heading{
     color: #FFFFFF;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
 }
 .count-sec .text-des{
     color: #FFFFFF;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
 }
 /* ===================================
@@ -1178,7 +1201,7 @@ header a.logo img {
 
 .stats-sec .num{
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
     color: #2f2f2f;
     transition: .5s ease;
@@ -1186,14 +1209,14 @@ header a.logo img {
 .stats-sec .heading{
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     color: #2f2f2f;
     transition: .5s ease;
 }
 .stats-sec .text-des{
     color: #2f2f2f;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
 }
 /* ===================================
@@ -1266,7 +1289,7 @@ header a.logo img {
     border: solid 3px #fff;
 }
 .speaker-sec .speaker-name{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #2f2f2f;
@@ -1279,7 +1302,7 @@ header a.logo img {
     color: #b6a85a;
 }
 .speaker-sec .speaker-detail{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #2f2f2f;
@@ -1431,7 +1454,7 @@ header a.logo img {
     font-weight: normal;
     font-size: 56px;
     letter-spacing: 1.8px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
 
 }
 
@@ -1439,16 +1462,18 @@ header a.logo img {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
-    letter-spacing: 1.8px;
+    letter-spacing: 0.8px;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
+	margin-right: 40%;
+	font-weight: 600;
+    font-family: 'archivo-expanded', sans-serif;
 }
 
 .banner-2-content .text-home .sub-heading{
     color: #ffffff;
-    font-size: 20px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 29px;
+    font-family: 'YoureInvitedHeavy';
     margin-bottom: 10px;
 }
 
@@ -1481,7 +1506,7 @@ header a.logo img {
     border: 1px solid #d9d9d9;
     padding: 7px 24px;
     margin-right: 8px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-size: 14px;
     color: #2f2f2f;
     opacity: .8;
@@ -1524,7 +1549,7 @@ header a.logo img {
 }
 .portfolio-sec .cbp-l-caption-title {
     color: #fff;
-    font: 400 20px/21px 'Montserrat', sans-serif;
+    font: 400 20px/21px 'archivo-expanded', sans-serif;
 }
 
 /* ===================================
@@ -1585,7 +1610,7 @@ header a.logo img {
 .timeline-sec .timeline-year .t-year .heading{
     color: #FFFFFF;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     margin-bottom: 0;
 }
 .timeline-sec .timeline .timeline-block{
@@ -1606,21 +1631,21 @@ header a.logo img {
     transition: .8s ease;
 }
 .timeline-sec .timeline .event-details .event-heading{
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'archivo-expanded', sans-serif;*/
+    font-family: 'YoureInvitedHeavy';
     font-size: 38px;
     font-weight: 500;
 }
 .timeline-sec .timeline .event-details .text-des{
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
     opacity: .8;
     margin-bottom: 15px;
 }
 .timeline-sec .timeline .event-details .event-time{
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
 
 }
@@ -1748,7 +1773,7 @@ header a.logo img {
     margin-bottom: 30px;
 }
 .testimonial-sec .testimonial-review .client-info .client-name{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-size: 20px;
     color: #b6a85a;
     margin-bottom: 0;
@@ -1912,7 +1937,7 @@ header a.logo img {
     border-radius: 0;
     color: white;
     padding:30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
 
 }
 
@@ -1965,7 +1990,7 @@ header a.logo img {
     background-color: rgba(20, 32, 34, 0.70);
 }
 .slide-area .overlay h4{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     font-weight: bold;
     font-size: 38px;
     color: #FFFFFF;
@@ -1990,7 +2015,7 @@ header a.logo img {
 .crumbs .breadcrumb li a{
     color: #FFFFFF;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     text-decoration: none;
 }
 .crumbs .breadcrumb li a:hover{
@@ -2027,13 +2052,13 @@ header a.logo img {
     font-size: 56px;
     color: #2b2b2b;
     font-weight: 500;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
 }
 
 .standalone-detail .para_text{
     color: #535353;
     font-weight: 500;
-    font-family: Montserrat , sans-serif;
+    font-family: archivo-expanded , sans-serif;
     text-align: center;
     font-size: 15px;
     margin: 0 auto;
@@ -2046,11 +2071,11 @@ header a.logo img {
 .standalone-area .gradient-text1{
     font-weight: 500;
     margin-bottom: 12px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'YoureInvitedHeavy';
     font-size: 45px;
 }
 .standalone-area .stand-img-des .para_text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'archivo-expanded', sans-serif;
     color: #535353;
 }
 
