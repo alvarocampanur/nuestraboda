@@ -1134,13 +1134,13 @@ header a.logo img {
 }
 .stats-sec .stats-content .stats-li{
     cursor: pointer;
-    border: double 5px #b6a85a;
-    padding: 15px;
-    border-radius: 50%;
+    border: double 7px #b6a85a;
+    padding: 11px;
+    border-radius: 0% 30% ;
     height: 200px;
-    width: 200px;
+    width: 350px;
     text-align: center;
-    padding-top: 28px;
+    padding-top: 22px;
     margin-left: 30px;
     margin-right: 30px;
     transition: .5s ease;
@@ -1168,10 +1168,10 @@ header a.logo img {
 .stats-sec .stats-content .stats-li:after{
     content: " ";
     height: 2px;
-    width: 30px;
+    width: 58px;
     background-color: #b6a85a;
     position: absolute;
-    right: 0;
+    right: -28px;
     top: 50%;
     display: block;
 }
@@ -1581,8 +1581,8 @@ header a.logo img {
 
 .timeline-sec .timeline-year{
     clear: both;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .timeline-sec .timeline-year:first-child{
     padding-top: 0;
@@ -1620,7 +1620,7 @@ header a.logo img {
     position: relative;
     cursor: pointer;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .timeline-sec .timeline .event-details{
     color: #FFFFFF;
@@ -1641,12 +1641,14 @@ header a.logo img {
     font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
     opacity: .8;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+	line-height: 18px;
 }
 .timeline-sec .timeline .event-details .event-time{
     font-size: 14px;
     font-family: 'archivo-expanded', sans-serif;
     font-weight: 300;
+	color: #d1ab6d;
 
 }
 .timeline-sec .timeline .event-details:hover{
