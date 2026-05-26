@@ -2723,6 +2723,11 @@ header a.logo img {
 .bg-change .split-container-setting h6, .bg-change .split-container-setting p {
     color: #ffffff;
 }
+.cont-temporizador {
+	width: 100%; 
+	margin: -110px 0px 0px 0px; 
+	padding: 3% 14% 4% 14%;
+}
 
 @media screen and (max-width: 767px) {
  
@@ -2819,6 +2824,11 @@ header a.logo img {
 	.mt-xs-4rem {
         margin-top: 0 !important;
     }
+	.cont-temporizador {
+	width: 100%; 
+	margin:-50px 0px 0px 0px; 
+	padding: 3% 0% 4% 0%;
+}
 }
 @media screen and (max-width: 575px) {
     .side-menu .inner-wrapper {
